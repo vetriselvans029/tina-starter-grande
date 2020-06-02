@@ -11,6 +11,8 @@ module.exports = {
       resolve: "gatsby-plugin-tinacms",
       options: {
         sidebar: {
+          hidden: false,
+          position: "displace",
           theme: {
             color: {
               primary: {
